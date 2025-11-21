@@ -16,8 +16,8 @@ import java.util.UUID;
 @Entity
 @Setter
 @Getter
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 
 public class Event {
     @Id
