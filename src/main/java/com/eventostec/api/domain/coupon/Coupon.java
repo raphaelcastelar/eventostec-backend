@@ -27,7 +27,7 @@ public class Coupon {
 
     private Integer discount;
 
-    private Date validity;
+    private Long valid;
 
     @ManyToOne
     @JoinColumn(name = "event_id")
