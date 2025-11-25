@@ -34,9 +34,8 @@ public class Event {
 
     private Date date;
 
-    @OneToOne(fetch = FetchType.LAZY)
+    @ManyToOne
     @JoinColumn(name = "address_id")
     private Address address;
-
 
 }
